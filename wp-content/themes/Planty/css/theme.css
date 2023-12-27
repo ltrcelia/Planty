@@ -1,0 +1,43 @@
+/*** Header ***/
+.admin,
+.nous-rencontrer
+ {
+    font-size: 16px;
+}
+.admin:hover,
+.nous-rencontrer:hover
+ {
+    font-weight: 700;
+    font-size: 13px;
+}
+.nous-rencontrer:active,
+.admin:active {
+    font-weight: 700;
+    font-size: 13px;
+}
+.commander a {
+    background-color: #DC9F96;
+    font-weight: 700;
+    font-size: 16px;
+    color: white !important; 
+    padding: 0 70px;
+}
+.commander:hover a {
+    background-color: #C02E44;
+    color: white !important; 
+}
+li {
+    margin-left: 60px;
+    justify-content: flex-end;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.site-container {
+    padding: 0 !important;
+}
+.brand {
+    margin-left: 37px;
+}
+/******/
