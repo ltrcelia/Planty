@@ -1,17 +1,15 @@
 /*** Header ***/
 .admin,
-.nous-rencontrer
- {
+.nous-rencontrer {
     font-size: 16px;
 }
 .admin:hover,
-.nous-rencontrer:hover
- {
+.nous-rencontrer:hover {
     font-weight: 700;
     font-size: 13px;
 }
-.nous-rencontrer:active,
-.admin:active {
+.page-id-16 .nous-rencontrer,
+.page-id-18 .nous-rencontrer {
     font-weight: 700;
     font-size: 13px;
 }
@@ -41,3 +39,47 @@ a {
     margin-left: 37px;
 }
 /******/
+
+
+/*** Nous contacter ***/ 
+#wpcf7-f115-p16-o1 #button {
+    border-radius: 5px;
+    width: 198px;
+    height: 55px;
+    padding: 9px 0px;
+    display: block;
+    margin: 0 auto;
+}
+#wpcf7-f115-p16-o1 #email {
+        width: 400px;
+        height: 70px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+        margin: 10px 0 10px 0;
+        padding: 15px;
+        border: none;
+    }
+#wpcf7-f115-p16-o1 #name {
+        width: 400px;
+        height: 70px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+        margin: 10px 0 10px 0;
+        padding: 15px;
+        border: none;
+    }
+#wpcf7-f115-p16-o1 #message {
+        height: 240px;
+        padding: 15px;
+        border: none;
+    border-radius: 7px;
+        box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+        margin: 10px 0 10px 0;
+    }
+#wpcf7-f115-p16-o1 label {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+/******/ 
