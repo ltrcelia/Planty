@@ -83,3 +83,139 @@ a {
         font-size: 20px;
     }
 /******/ 
+
+
+/*** Commander ***/ 
+#wpcf7-f59-p18-o1 main {
+    display: flex;
+    justify-content: center;
+    background-color: #3B8E46;
+}
+#wpcf7-f59-p18-o1 h3,
+#wpcf7-f59-p18-o1 h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+#wpcf7-f59-p18-o1 h2 {
+    margin-top: 30px;
+}
+#wpcf7-f59-p18-o1 .border {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#wpcf7-f59-p18-o1 .image-container {
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#wpcf7-f59-p18-o1 .image-container img {
+    max-width: 200px;
+    margin: 5px;
+}
+#wpcf7-f59-p18-o1 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+#wpcf7-f59-p18-o1 .nbr {
+    width: 39px;
+    height: 56px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+}
+#wpcf7-f59-p18-o1 input {
+    border-radius: 0;
+}
+#wpcf7-f59-p18-o1 label {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+#wpcf7-f59-p18-o1 .form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 460px;
+    height: 100%;
+    padding-bottom: 0px;
+    margin-top: 55px;
+}
+#wpcf7-f59-p18-o1 #container-gauche,
+#wpcf7-f59-p18-o1 .container-droite {
+    width: 60%;
+}
+#wpcf7-f59-p18-o1 .container-droite {
+    padding-left: 40px;
+}
+#wpcf7-f59-p18-o1 #container-gauche {
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+#wpcf7-f59-p18-o1 .infos {
+    width: 100%;
+    max-width: 420px;
+    height: 71px;
+    border: none;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+#wpcf7-f59-p18-o1 #nom,
+#wpcf7-f59-p18-o1 #prenom,
+#wpcf7-f59-p18-o1 #email,
+#wpcf7-f59-p18-o1 #adresse,
+#wpcf7-f59-p18-o1 #code-postal,
+#wpcf7-f59-p18-o1 #ville {
+    border-radius: 7px;
+}
+#wpcf7-f59-p18-o1 #button {
+    width: 198px;
+    height: 55px;
+    padding: 9px 0px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+@media (max-width: 1024px) {
+#wpcf7-f59-p18-o1 .image-container {
+    margin: 0 50px
+}
+#wpcf7-f59-p18-o1 .image-container img {
+    max-width: 300px;
+}
+#wpcf7-f59-p18-o1 #container-gauche {
+    width: 50%;
+}
+}
+@media (max-width: 500px) {
+    #wpcf7-f59-p18-o1 .image-container img {
+    max-width: 200px;
+}
+#wpcf7-f59-p18-o1 .form-container {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+    padding-bottom: 0px;
+    margin-top: 55px;
+}
+#wpcf7-f59-p18-o1 #container-gauche,
+#wpcf7-f59-p18-o1 .container-droite {
+    width: 100%;
+    padding: 0 40px;
+}
+#wpcf7-f59-p18-o1 #container-gauche {
+    border-right: none;
+    margin-bottom: 20px;
+}
+} 
+/******/
