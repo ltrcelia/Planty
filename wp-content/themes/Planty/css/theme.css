@@ -187,7 +187,8 @@ a {
 }
 @media (max-width: 1024px) {
 #wpcf7-f59-p18-o1 .image-container {
-    margin: 0 50px
+    margin: 0 50px;
+    justify-content: center;
 }
 #wpcf7-f59-p18-o1 .image-container img {
     max-width: 300px;
@@ -196,7 +197,8 @@ a {
     width: 50%;
 }
 }
-@media (max-width: 500px) {
+
+@media (max-width: 575px) {
     #wpcf7-f59-p18-o1 .image-container img {
     max-width: 200px;
 }
