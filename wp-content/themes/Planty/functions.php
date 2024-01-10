@@ -8,7 +8,7 @@ function wpm_enqueue_styles()
 
 function add_extra_item_to_nav_menu($items, $args) {
     if ($args->theme_location == 'primary') {
-        $items = '<li class="nous-rencontrer"><a href="http://localhost:8888/planty/nous-rencontrer">Nous contacter</a></li>';
+        $items = '<li class="nous-rencontrer"><a href="http://localhost:8888/planty/nous-rencontrer">Nous rencontrer</a></li>';
         
         if (is_user_logged_in()) {
             $items .= '<li class="admin"><a href="' . admin_url() . '">Admin</a></li>';

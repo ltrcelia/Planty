@@ -89,6 +89,8 @@ a {
 #wpcf7-f59-p18-o1 main {
     display: flex;
     justify-content: center;
+    max-width: 1200px;
+    margin: auto;
     background-color: #3B8E46;
 }
 #wpcf7-f59-p18-o1 h3,
@@ -175,6 +177,7 @@ a {
 #wpcf7-f59-p18-o1 #code-postal,
 #wpcf7-f59-p18-o1 #ville {
     border-radius: 7px;
+    padding-left: 20px;
 }
 #wpcf7-f59-p18-o1 #button {
     width: 198px;
@@ -194,7 +197,7 @@ a {
     max-width: 300px;
 }
 #wpcf7-f59-p18-o1 #container-gauche {
-    width: 50%;
+    width: 100%;
 }
 }
 
