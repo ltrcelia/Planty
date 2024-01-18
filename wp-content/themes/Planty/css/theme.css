@@ -89,7 +89,7 @@ a {
 #wpcf7-f59-p18-o1 main {
     display: flex;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     background-color: #3B8E46;
 }
@@ -103,14 +103,13 @@ a {
     margin-top: 30px;
 }
 #wpcf7-f59-p18-o1 .border {
-    border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 #wpcf7-f59-p18-o1 .image-container {
     padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #wpcf7-f59-p18-o1 .image-container img {
     max-width: 200px;
@@ -121,7 +120,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10px;
+    margin: 0 10px;
 }
 #wpcf7-f59-p18-o1 .nbr {
     width: 39px;
@@ -188,23 +187,40 @@ a {
     margin: 0 auto;
     margin-top: 50px;
 }
-@media (max-width: 1024px) {
-#wpcf7-f59-p18-o1 .image-container {
-    margin: 0 50px;
-    justify-content: center;
+
+/*** REACTIONS INPUT ***/
+.image-container .image:nth-child(1) input.nbr:hover {
+    border: 1px solid #ef5959;
 }
-#wpcf7-f59-p18-o1 .image-container img {
-    max-width: 300px;
-}
-#wpcf7-f59-p18-o1 #container-gauche {
-    width: 100%;
-}
+.image-container .image:nth-child(1) input.nbr:focus {
+    border: 1px solid #ef5959; 
 }
 
-@media (max-width: 575px) {
-    #wpcf7-f59-p18-o1 .image-container img {
-    max-width: 200px;
+.image-container .image:nth-child(2) input.nbr:hover {
+    border: 1px solid #ff9747; 
 }
+.image-container .image:nth-child(2) input.nbr:focus {
+    border: 1px solid #ff9747; 
+}
+
+.image-container .image:nth-child(3) input.nbr:hover {
+    border: 1px solid #d083d0; 
+}
+.image-container .image:nth-child(3) input.nbr:focus {
+    border: 1px solid #d083d0; 
+}
+
+.image-container .image:nth-child(4) input.nbr:hover {
+    border: 1px solid #ffdd00; 
+}
+.image-container .image:nth-child(4) input.nbr:focus {
+    border: 1px solid #ffdd00; 
+}
+/*** FIN MOFIDICATIONS ***/
+
+
+/*** MEDIAS QUERIES ***/
+@media (max-width: 770px) {
 #wpcf7-f59-p18-o1 .form-container {
     display: block;
     justify-content: center;
